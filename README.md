@@ -3,7 +3,7 @@
 A RESTful backend built with **Node.js, Express and MongoDB (Mongoose)**. Users sign up, log in to receive a **JWT**, and manage **only the employees they created**.
 
 - **Database name:** `comp3123_assignment1`
-- **Deployed API:** `https://<your-project>.vercel.app` _(replace after deploying)_
+- **Deployed API:** `https://101584721-comp-3123-assignment1.vercel.app/`
 - **Postman collection:** `postman/COMP3123_Assignment1.postman_collection.json`
 
 ## Technologies
