@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/user/signup"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "username": "carl",
+      "email": "not-an-email",
+      "password": "Passw0rdA"
+    }
+scripts:
+  - type: afterResponse
+    code: pm.test('Status is 400', function () { pm.response.to.have.status(400); });
+    language: text/javascript
+order: 5000

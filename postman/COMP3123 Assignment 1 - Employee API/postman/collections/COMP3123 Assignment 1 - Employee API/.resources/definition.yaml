@@ -1,0 +1,8 @@
+$kind: collection
+description: Run folders in order 0 -> 6. Folder 7 is for the rate-limit screenshot (use Send repeatedly, or Collection Runner with many iterations).
+variables:
+  baseUrl: http://localhost:3000
+  tokenA: ""
+  tokenB: ""
+  empA: ""
+  empB: ""
